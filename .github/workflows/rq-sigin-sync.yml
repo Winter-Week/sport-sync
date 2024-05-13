@@ -3,11 +3,11 @@ name: rq-sigin-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 9,10,16 * * *'
+    - cron: '59 9,11,16 * * *'
 
 env:
-  GITHUB_NAME: XiaoSiHwang
-  GITHUB_EMAIL: 1009326507@qq.com
+  GITHUB_NAME: Winter-Week
+  GITHUB_EMAIL: zddlaw@outlook.com
   AESKEY: ${{ secrets.AESKEY }}
   RQ_EMAIL: ${{ secrets.RQ_EMAIL }}
   RQ_PASSWORD: ${{ secrets.RQ_PASSWORD }}
